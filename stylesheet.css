@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F4F1EA;
+    color: #1A1A1A;
+    margin-left: 3px;
+    padding-left: 3px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
+.intro{
+    padding-top: 70px;
+}
+.header {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    background-color: #F4F1EA;
+    align-items: center;
+    padding: 16px 24px;
+    position:fixed;
+    border-bottom: dotted #C9C8BA 4px;
+    padding-right: 100px;
+
+}
+nav {
+    display: flex;
+    gap: 20px;
+    font-size:  20px;
+}
+nav a{
+    color:#1A1A1A;
+}
+nav a:hover {
+    color: #2F5D4E;
+}
+p{
+    font-size: 1rem; 
+    line-height: 1.6;
+    color: #5C5C52;
+    font-family: 'Segoe UI', sans-serif;
+}
+#first{
+    color:#2F5D4E ;
+    font-size: 0.9rem;
+}
+#second{
+    font-size: 3rem;;
+    color: #1A1A1A;
+    font-family: 'Georgia', serif;
+}
+section{
+    border-top: dotted #C9C8BA 4px;   
+    padding: 5px;
+    scroll-margin-top: 90px;
+
+}
+.box{
+    border: solid #C9C8BA 2px ;
+    width: fit-content;
+    padding:7px;
+    margin:4px;
+    color: #1A1A1A;
+    font-size: 0.85rem;
+    border-radius: 6px; 
+  
+}
+.space{
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;  
+    align-items: center;
+    padding: 6px 0;
+}
+.space span:first-child {
+    width: 80px;  
+}
+.bottom{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.bottom{
+    height: 1000px;
+}
+.arrange {
+      display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  align-content: space-around;
+}
+.About{
+    display: flex;
+ 
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.align{
+    width : 100%;
+}
+a {
+    color: #2F5D4E;
+    font-family: 'Segoe UI', sans-serif;
+}
+button{
+    border: 1px solid #1A1A1A;
+    color: #1A1A1A;
+}
+h1{
+    font-family: 'Georgia', serif;
+}
+h2{
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+
+}
+h3{
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+}
+div {
+    font-family: 'Segoe UI', sans-serif;
+}
+span{
+    font-family: 'Segoe UI', sans-serif;
+}
+nav a {
+    font-size: 1rem; 
+}
+.bablu {
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 0.95rem;
+    border: 1px solid var(--ink);
+    border-radius: 6px;
+    color: var(--ink);
+    text-decoration: none;
+    background-color: var(--bg);
+}
+
+.bablu:hover {
+    background-color: var(--ink);
+    color: var(--bg);
+}
+a{
+    text-decoration: none;
+}
