@@ -1,0 +1,66 @@
+
+#first{
+    color:#B6FF4A;
+    font-size: 0.9rem;
+}
+#second{
+    font-size: 5rem;;
+    color:#F5F5F5;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    line-height: 1;
+}
+.bottom{
+    display: flex;
+    justify-content:space-between;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #F4F1EA;
+    color: #1A1A1A;
+    padding: 0 6%;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+
+p{
+    font-size: 1rem; 
+    line-height: 1.6;
+    color:#8D8D8D;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+section{
+    border-top: 1px solid #242424 ;   
+    padding: 5px;
+    scroll-margin-top: 90px;
+
+}
+
+
+
+.About{
+    display: flex;
+ 
+}
+
+
+a {
+    color: #2F5D4E;
+    font-family: 'Segoe UI', sans-serif;
+        text-decoration: none;
+
+}
+
+
+
+

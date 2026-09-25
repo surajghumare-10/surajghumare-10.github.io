@@ -1,0 +1,24 @@
+.space{
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;  
+    align-items: center;
+    padding: 6px 0;
+}
+.space span:first-child {
+    width: 80px;  
+}
+.space p {
+    color: #F5F5F5;
+}
+
+.space a {
+    color: #8D8D8D;
+}
+
+.space a:hover {
+    color: #B6FF4A;
+}
+.contact-item svg {
+    color: #B6FF4A;;
+}

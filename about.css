@@ -1,0 +1,15 @@
+.bablu {
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 0.95rem;
+    border: 1px solid #1A1A1A;
+    border-radius: 6px;
+    color: #1A1A1A;
+    text-decoration: none;
+    background-color: #F4F1EA;
+}
+
+.bablu:hover {
+    background-color: #1A1A1A;
+    color: #F4F1EA;
+}

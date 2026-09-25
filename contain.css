@@ -1,0 +1,122 @@
+.header {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    align-items: center;
+    padding: 16px 24px;
+    position:fixed;
+    border: 1px solid #242424;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    z-index: 1000;
+}
+nav {
+    display: flex;
+    gap: 15px;
+    font-size:  20px;
+}
+nav a{
+    color:#8D8D8D;
+        font-size: 0.9rem; 
+}
+nav a:hover {
+    color:  #B6FF4A;
+}
+@media (max-width: 700px) {
+    nav {
+        gap: 6px;
+    }
+    nav a {
+        font-size: 0.75rem;
+        padding: 5px;
+    }
+}
+.start {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:  #F5F5F5;
+}
+
+.start span {
+    color:  #B6FF4A;
+}
+
+.section{
+    background-color: transparent;
+    border: 1px solid #D8D4C8;
+    border-radius: 16px;
+    border-top: 1px solid #242424;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    padding:  120px 0 70px;
+    gap: 40px;
+    scroll-margin-top: 100px;
+  padding-top: 120px;
+    margin-top: 95px;
+}
+.sectionCon{
+    transition: 0.3s;
+    background-color: #101010;;
+    border: 1px solid #242424;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+.sectionCon:hover{
+        transform: translateY(-5px);
+    border-color:  #B6FF4A;
+}
+.sectionCon p {
+    margin-bottom: 20px;
+}
+.align{
+    width : 100%;
+     color: #B6FF4A;
+}
+.arrange {
+      display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  align-content: space-around;
+}
+.box{
+    background-color:#101010;
+    width: fit-content;
+    padding:8px 14px;
+    margin:4px;
+    color: #F5F5F5;
+    font-size: 0.85rem;
+    border: 1px solid #242424;
+    border-radius: 20px; 
+    transition: 0.25s;
+}
+.box:hover{
+    background-color: #B6FF4A;
+    color: #080808;
+    transform: translateY(-3px);
+
+}
+.bablu {
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 0.95rem;
+    border: 1px solid #1A1A1A;
+    border-radius: 6px;
+    color: #1A1A1A;
+    text-decoration: none;
+    background-color: #F4F1EA;
+}
+
+.bablu:hover {
+    background-color: #1A1A1A;
+    color: #F4F1EA;
+}
