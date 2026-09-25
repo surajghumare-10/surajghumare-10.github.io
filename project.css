@@ -1,6 +1,11 @@
-#Project > div:last-child {
+#Project>div:last-child {
     margin-left: 0;
 }
+
 #Project h2 {
     margin-bottom: 20px;
+}
+
+#Project>div {
+    margin-bottom: 60px;
 }
